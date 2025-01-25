@@ -1,71 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Car Rental System</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- Login Panel -->
     <div id="loginPanel" class="login-panel">
-        <div class="login-container">
-            <h2>Login</h2>
-            <input type="email" id="email" placeholder="Email">
-            <input type="password" id="password" placeholder="Password">
-            <button onclick="login()">Login</button>
-        </div>
+      <div class="login-container">
+        <h2>Login</h2>
+        <input type="email" id="email" placeholder="Email" />
+        <input type="password" id="password" placeholder="Password" />
+        <button onclick="login()">Login</button>
+      </div>
     </div>
 
     <!-- Main Content -->
     <div id="mainContent" class="hidden">
-        <!-- Navbar -->
-        <nav>
-            <div class="nav-left">
-                <h1>Car Rental System</h1>
-            </div>
-            <div class="nav-right">
-                <div class="nav-buttons">
-                    <button onclick="window.location.href='dashboard.html'">Dashboard</button>
-                    <button onclick="window.location.href='about.html'">About</button>
-                    <button onclick="window.location.href='contact.html'">Contact Us</button>
-                </div>
-                <div class="user-profile active" onclick="window.location.href='profile.html'">
-                    <i class="fas fa-user"></i>
-                    <span id="userName"></span>
-                </div>
-                <button class="logout-btn" onclick="logout()">Logout</button>
-            </div>
-        </nav>
-
-        <!-- Search and Filter Section -->
-        <div class="search-section">
-            <input type="text" id="searchInput" placeholder="Search cars...">
-            <select id="priceFilter">
-                <option value="default">Sort by Price</option>
-                <option value="lowToHigh">Price: Low to High</option>
-                <option value="highToLow">Price: High to Low</option>
-            </select>
+      <!-- Navbar -->
+      <nav>
+        <div class="nav-left">
+          <h1>Car Rental System</h1>
         </div>
-
-        <!-- Admin Panel (visible only for admin) -->
-        <div id="adminPanel" class="hidden">
-            <button onclick="showAddCarForm()">Add New Car</button>
+        <div class="nav-right">
+          <div class="nav-buttons">
+            <button onclick="window.location.href='dashboard.html'">
+              Dashboard
+            </button>
+            <button onclick="window.location.href='about.html'">About</button>
+            <button onclick="window.location.href='contact.html'">
+              Contact Us
+            </button>
+          </div>
+          <div
+            class="user-profile active"
+            onclick="window.location.href='profile.html'"
+          >
+            <i class="fas fa-user"></i>
+            <span id="userName"></span>
+          </div>
+          <button class="logout-btn" onclick="logout()">Logout</button>
         </div>
+      </nav>
 
-        <!-- Car Cards Container -->
-        <div id="carContainer" class="car-container"></div>
+      <!-- Search and Filter Section -->
+      <div class="search-section">
+        <input type="text" id="searchInput" placeholder="Search cars..." />
+        <select id="priceFilter">
+          <option value="default">Sort by Price</option>
+          <option value="lowToHigh">Price: Low to High</option>
+          <option value="highToLow">Price: High to Low</option>
+        </select>
+      </div>
+
+      <!-- Admin Panel (visible only for admin) -->
+      <div id="adminPanel" class="hidden">
+        <button onclick="showAddCarForm()">Add New Car</button>
+      </div>
+
+      <!-- Car Cards Container -->
+      <div id="carContainer" class="car-container"></div>
     </div>
 
     <!-- Car Details Modal -->
     <div id="carModal" class="modal hidden">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div id="carDetails"></div>
-        </div>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="carDetails"></div>
+      </div>
     </div>
 
     <script src="script.js"></script>
-</body>
-</html> 
+  </body>
+</html>
