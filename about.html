@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Car Rental System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <h1>Car Rental System</h1>
+        </div>
+        <div class="nav-right">
+            <div class="nav-buttons">
+                <button onclick="window.location.href='dashboard.html'">Dashboard</button>
+                <button onclick="window.location.href='about.html'">About</button>
+                <button onclick="window.location.href='contact.html'">Contact Us</button>
+            </div>
+            <div class="user-profile active" onclick="window.location.href='profile.html'">
+                <i class="fas fa-user"></i>
+                <span id="userName"></span>
+            </div>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+        </div>
+    </nav>
+
+    <div class="about-container">
+        <h2>About Us</h2>
+        <img src="https://images.unsplash.com/photo-1560253414-f65d1f5a1a37" alt="Car Rental Office" class="about-image">
+        <p>Welcome to Car Rental System, your trusted partner in providing quality car rental services. We have been in business for over a decade, serving thousands of satisfied customers with our extensive fleet of vehicles.</p>
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-car"></i>
+                <h3>Wide Selection</h3>
+                <p>Choose from our diverse range of vehicles</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-dollar-sign"></i>
+                <h3>Best Prices</h3>
+                <p>Competitive rates and transparent pricing</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Round-the-clock customer service</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

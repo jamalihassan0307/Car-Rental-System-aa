@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Car Rental System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar Placeholder -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <div id="mainContent">
+        <!-- Search and Filter Section -->
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="Search cars...">
+            <select id="priceFilter">
+                <option value="default">Sort by Price</option>
+                <option value="lowToHigh">Price: Low to High</option>
+                <option value="highToLow">Price: High to Low</option>
+            </select>
+        </div>
+
+        <!-- Admin Panel -->
+        <div id="adminPanel" class="hidden">
+            <button class="add-car-btn">
+                <i class="fas fa-plus"></i> Add New Car
+            </button>
+        </div>
+
+        <!-- Car Cards Container -->
+        <div id="carContainer" class="car-container"></div>
+    </div>
+
+    <!-- Car Details Modal -->
+    <div id="carModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="carDetails"></div>
+        </div>
+    </div>
+
+    <script type="module" src="api.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html> 
