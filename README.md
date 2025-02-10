@@ -30,6 +30,48 @@ A comprehensive car rental management system that simplifies vehicle bookings, r
 
 Check out the live demo: [Car Rental System](https://car-rental-system-aa-jamalihassan0307.netlify.app/)
 
+## 📸 Screenshots
+
+### System Features
+
+#### 1. About Pages
+
+![About Page](screenshots/about.png)
+![About Details](screenshots/about1.png)
+_Overview and company information_
+
+#### 2. Admin Interface
+
+![Admin Home](screenshots/admin_home.png)
+_Admin dashboard with vehicle management_
+
+#### 3. Vehicle Management
+
+![Add New Car](screenshots/add_car.png)
+_Interface for adding new vehicles to the fleet_
+
+![Edit Car](screenshots/edit_car.png)
+_Vehicle information editing interface_
+
+#### 4. User Profiles
+
+![Admin Profile](screenshots/admin_profile.png)
+![Admin Profile Details](screenshots/admin_profile1.png)
+_Administrator profile and settings_
+
+![User Profile](screenshots/user_profile.png)
+_Regular user profile interface_
+
+#### 5. User Dashboard
+
+![User Home](screenshots/user_home.png)
+_User dashboard with available vehicles_
+
+#### 6. Contact
+
+![Contact Page](screenshots/contact.png)
+_Customer support and contact information_
+
 ## 🚀 Features
 
 - **Vehicle Management**
@@ -90,78 +132,3 @@ Contributions, issues, and feature requests are welcome! Feel free to check [iss
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Netlify](https://www.netlify.com/) for hosting
-
-## 📝 License
-
-This project is [MIT](LICENSE) licensed.
-
-## 📸 Screenshots
-
-### System Features
-
-#### 1. About Pages
-
-![About Page](screenshots/about.png)
-![About Details](screenshots/about1.png)
-_Overview and company information_
-
-#### 2. Admin Interface
-
-![Admin Home](screenshots/admin_home.png)
-_Admin dashboard with vehicle management_
-
-#### 3. Vehicle Management
-
-![Add New Car](screenshots/add_car.png)
-_Interface for adding new vehicles to the fleet_
-
-![Edit Car](screenshots/edit_car.png)
-_Vehicle information editing interface_
-
-#### 4. User Profiles
-
-![Admin Profile](screenshots/admin_profile.png)
-![Admin Profile Details](screenshots/admin_profile1.png)
-_Administrator profile and settings_
-
-![User Profile](screenshots/user_profile.png)
-_Regular user profile interface_
-
-#### 5. User Dashboard
-
-![User Home](screenshots/user_home.png)
-_User dashboard with available vehicles_
-
-#### 6. Contact
-
-![Contact Page](screenshots/contact.png)
-_Customer support and contact information_
-
-## 💫 Key Features Highlighted in Screenshots
-
-- **User Interface**
-
-  - Clean and modern design
-  - Intuitive navigation
-  - Responsive layout
-  - Professional appearance
-
-- **Admin Controls**
-
-  - Vehicle management dashboard
-  - User profile management
-  - System settings
-  - Fleet overview
-
-- **Vehicle Display**
-
-  - High-quality vehicle images
-  - Detailed specifications
-  - Pricing information
-  - Availability status
-
-- **User Experience**
-  - Easy booking process
-  - Profile customization
-  - Contact support
-  - Account management
