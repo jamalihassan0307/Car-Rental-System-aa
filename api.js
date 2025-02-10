@@ -1,6 +1,6 @@
 ////molipi1196@fanicle.com
 
-const API_BASE_URL = "https://678ae011dd587da7ac2b9df4.mockapi.io/api";
+const API_BASE_URL = "https://678ae011dd587da7ac2b9df4.mockapi.io/";
 
 // User API methods
 const UserAPI = {
