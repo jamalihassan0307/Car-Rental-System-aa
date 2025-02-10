@@ -32,45 +32,55 @@ Check out the live demo: [Car Rental System](https://car-rental-system-aa-jamali
 
 ## 📸 Screenshots
 
-### System Features
+### User Interface
 
-#### 1. About Pages
+#### 1. Home & About
 
-![About Page](screenshots/about.png)
-![About Details](screenshots/about1.png)
-_Overview and company information_
+<div align="center">
+  <img src="screenshots/about.png" alt="About Page" width="400"/>
+  <img src="screenshots/about1.png" alt="About Details" width="400"/>
+  <p><em>Overview and company information</em></p>
+</div>
 
-#### 2. Admin Interface
+#### 2. User Experience
 
-![Admin Home](screenshots/admin_home.png)
-_Admin dashboard with vehicle management_
+<div align="center">
+  <img src="screenshots/user_home.png" alt="User Dashboard" width="400"/>
+  <img src="screenshots/user_profile.png" alt="User Profile" width="400"/>
+  <p><em>User dashboard and profile management</em></p>
+</div>
 
-#### 3. Vehicle Management
+### Admin Interface
 
-![Add New Car](screenshots/add_car.png)
-_Interface for adding new vehicles to the fleet_
+#### 3. Admin Dashboard
 
-![Edit Car](screenshots/edit_car.png)
-_Vehicle information editing interface_
+<div align="center">
+  <img src="screenshots/admin_home.png" alt="Admin Dashboard" width="400"/>
+  <p><em>Comprehensive admin control panel</em></p>
+</div>
 
-#### 4. User Profiles
+#### 4. Vehicle Management
 
-![Admin Profile](screenshots/admin_profile.png)
-![Admin Profile Details](screenshots/admin_profile1.png)
-_Administrator profile and settings_
+<div align="center">
+  <img src="screenshots/add_car.png" alt="Add New Car" width="400"/>
+  <img src="screenshots/edit_car.png" alt="Edit Car" width="400"/>
+  <p><em>Vehicle fleet management interface</em></p>
+</div>
 
-![User Profile](screenshots/user_profile.png)
-_Regular user profile interface_
+#### 5. Admin Profile Settings
 
-#### 5. User Dashboard
+<div align="center">
+  <img src="screenshots/admin_profile.png" alt="Admin Profile" width="400"/>
+  <img src="screenshots/admin_profile1.png" alt="Admin Profile Details" width="400"/>
+  <p><em>Administrator profile and settings management</em></p>
+</div>
 
-![User Home](screenshots/user_home.png)
-_User dashboard with available vehicles_
+#### 6. Contact & Support
 
-#### 6. Contact
-
-![Contact Page](screenshots/contact.png)
-_Customer support and contact information_
+<div align="center">
+  <img src="screenshots/contact.png" alt="Contact Page" width="400"/>
+  <p><em>Customer support and contact information</em></p>
+</div>
 
 ## 🚀 Features
 
