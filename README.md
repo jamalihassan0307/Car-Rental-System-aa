@@ -32,9 +32,18 @@ Check out the live demo: [Car Rental System](https://car-rental-system-aa-jamali
 
 ## 📸 Screenshots
 
+### Authentication
+
+#### 1. Login Interface
+
+<div align="center">
+  <img src="screenshots/login.png" alt="Login Page" width="400"/>
+  <p><em>Secure authentication system with email and password</em></p>
+</div>
+
 ### User Interface
 
-#### 1. Home & About
+#### 2. Home & About
 
 <div align="center">
   <img src="screenshots/about.png" alt="About Page" width="400"/>
@@ -42,7 +51,7 @@ Check out the live demo: [Car Rental System](https://car-rental-system-aa-jamali
   <p><em>Overview and company information</em></p>
 </div>
 
-#### 2. User Experience
+#### 3. User Experience
 
 <div align="center">
   <img src="screenshots/user_home.png" alt="User Dashboard" width="400"/>
@@ -52,14 +61,14 @@ Check out the live demo: [Car Rental System](https://car-rental-system-aa-jamali
 
 ### Admin Interface
 
-#### 3. Admin Dashboard
+#### 4. Admin Dashboard
 
 <div align="center">
   <img src="screenshots/admin_home.png" alt="Admin Dashboard" width="400"/>
   <p><em>Comprehensive admin control panel</em></p>
 </div>
 
-#### 4. Vehicle Management
+#### 5. Vehicle Management
 
 <div align="center">
   <img src="screenshots/add_car.png" alt="Add New Car" width="400"/>
@@ -67,7 +76,7 @@ Check out the live demo: [Car Rental System](https://car-rental-system-aa-jamali
   <p><em>Vehicle fleet management interface</em></p>
 </div>
 
-#### 5. Admin Profile Settings
+#### 6. Admin Profile Settings
 
 <div align="center">
   <img src="screenshots/admin_profile.png" alt="Admin Profile" width="400"/>
@@ -75,7 +84,7 @@ Check out the live demo: [Car Rental System](https://car-rental-system-aa-jamali
   <p><em>Administrator profile and settings management</em></p>
 </div>
 
-#### 6. Contact & Support
+#### 7. Contact & Support
 
 <div align="center">
   <img src="screenshots/contact.png" alt="Contact Page" width="400"/>
